@@ -34,7 +34,7 @@
      &COLLECTIVE
        COLVAR 1
        INTERMOLECULAR .TRUE.
-       TARGET [angstrom] 1.8
+       TARGET [angstrom] 1.95
      &END COLLECTIVE
      &LAGRANGE_MULTIPLIERS
      	COMMON_ITERATION_LEVELS 1
@@ -62,7 +62,7 @@
 &FORCE_EVAL
   METHOD Quickstep
   &DFT
-		 UKS  T
+		 UKS  F
      CHARGE 0
      POTENTIAL_FILE_NAME /share/apps/cp2k/cp2k-7.1-intel/data/GTH_POTENTIALS
      BASIS_SET_FILE_NAME /share/apps/cp2k/cp2k-7.1-intel/data/BASIS_MOLOPT
