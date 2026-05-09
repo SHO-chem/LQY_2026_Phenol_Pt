@@ -10,7 +10,7 @@ INIWAV = 1        #initial electr wf.:0-lowe 1-rand                          #
 
 ######################  spin polarized calculation  ##########################
 ISPIN  = 1        #spin polarized calculation:2-yes 1-no                     #
-###MAGMOM =       #initial mag moment:NIONS*1                                #
+##MAGMOM =       #initial mag moment:NIONS*1                                #
 ##############################################################################
 
 #############################  lda+u method  #################################
