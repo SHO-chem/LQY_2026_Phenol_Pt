@@ -1,7 +1,7 @@
 &FORCE_EVAL
   METHOD Quickstep
   &DFT
-      UKS T
+      UKS F
       BASIS_SET_FILE_NAME  /share/apps/cp2k/cp2k-7.1-intel/data/BASIS_MOLOPT
       POTENTIAL_FILE_NAME  /share/apps/cp2k/cp2k-7.1-intel/data/GTH_POTENTIALS
       WFN_RESTART_FILE_NAME ./1-RESTART.wfn 
